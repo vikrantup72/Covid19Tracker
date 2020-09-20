@@ -9,7 +9,7 @@ function Map({ countries, casesType, center, zoom }) {
       <LeafletMap center={center} zoom={zoom}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">vikrantup72</a> contributors'
+          attribution='&copy; <a href="https://vikrantup72.netlify.app/">vikrantup72</a> contributors'
         />
         {showDataOnMap(countries, casesType)}
       </LeafletMap>
